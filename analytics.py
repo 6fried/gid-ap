@@ -6,7 +6,6 @@ import csv
 
 headers = {
     "Content-Type": "application/json",
-    "Authorization": "e2bblE4wxOQb1OXKVwCWgqiQQLLJnx8Hxh6hKLdtpCI"
 }
 
 url = "https://analytics.api.aiesec.org/v2/applications/analyze.json?access_token=vnQ19HUU9eZhZ2s-IBIdBq2RM3K0RtFZyQfp8w325ek&start_date=2024-02-14&end_date=2024-07-31&performance_v3%5Boffice_id%5D=1623"
