@@ -1,0 +1,27 @@
+
+{
+  opportunities(
+    filters: {
+      date_opened: {
+        from:  "2024-01-02T00:00:00"
+        to:  "2025-12-20T23:59:59"
+      }
+    }
+    pagination: {
+      page: 1
+      per_page: 200
+    }
+    is_v2: false
+  ) {
+    data {
+      id
+      title
+      programme{
+        short_name
+      }
+      organisation{
+        name
+      }
+    }
+  }
+}
