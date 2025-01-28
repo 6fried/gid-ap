@@ -18,8 +18,8 @@ if response.status_code == 200:
 
   rows = [
     ["Status", "Applicants", "Unique Applicants"],
-    ["Approved", data["approved_total"]["doc_count"], data["approved_total"]["applicants"]["value"]],
-    ["Realized", data["realized_total"]["doc_count"], data["realized_total"]["applicants"]["value"]]
+    ["Approved", data["i_approved_7"]["doc_count"], data["i_approved_7"]["applicants"]["value"]],
+    ["Realized", data["i_realized_7"]["doc_count"], data["i_realized_7"]["applicants"]["value"]]
   ]
 
   csv_file = "output.csv"
